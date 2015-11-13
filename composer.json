@@ -1,5 +1,5 @@
 {
-  "name": "dumuro/yii2-widget-jqwidgets",
+  "name": "derekisbusy/yii2-jqwidgets",
   "description": "Collection of useful widgets for Yii Framework 2.0 extending functionalities",
   "keywords": ["yii2", "extension", "widget"],
   "homepage": "https://github.com/dumuro/yii2-widget-jqwidgets",
@@ -12,10 +12,13 @@
       "homepage": "http://www.dumuro.ru/"
     }
   ],
+  "require": {
+      "bower-asset/jqwidgets": "*"
+  },
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "dumuro\\yii2-widget-jqwidgets\\": ""
+      "derekisbusy\\jqwidgets\\": ""
     }
   }
 }

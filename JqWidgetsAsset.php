@@ -1,6 +1,6 @@
 <?php
 
-namespace dumuro\yii2_widget_jqwidgets;
+namespace derekisbusy\jqwidgets;
 
 use yii\web\AssetBundle;
 
@@ -28,9 +28,9 @@ class JqWidgetsAsset extends AssetBundle {
 
     /** @var array  */
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapThemeAsset',
-        'yii\web\YiiAsset'
+//        'yii\bootstrap\BootstrapAsset',
+//        'yii\bootstrap\BootstrapThemeAsset',
+//        'yii\web\YiiAsset'
     ];
 
     /**
@@ -38,7 +38,7 @@ class JqWidgetsAsset extends AssetBundle {
      */
     public function init()
     {
-        $this->sourcePath = __DIR__.'/assets';
+        $this->sourcePath = '@bower/jqwidgets';
         parent::init();
     }
 
